@@ -99,6 +99,13 @@
       "RetirementDate": "12-05-2020"
     },
     {
+      "Name": "PaypalRefundComment",
+      "Description": "Add comment in Paypal for refunds",
+      "Value": "false",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "11-20-2020"
+    },
+    {
       "Name": "GPSyncProcessing",
       "Description": "Flag to enable GP Synchronous Processing",
       "Value": "true",
