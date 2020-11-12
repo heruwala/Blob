@@ -1,0 +1,158 @@
+{
+  "FeatureFlags": [
+    {
+      "Name": "OETSearchUSMLEID",
+      "Description": "Search OET by USMLE ID",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "QAAcceptDecision",
+      "Description": "QA Accept Decision actions",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "QAOverrideDecision",
+      "Description": "QA Override Decision actions",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "UpdateChecklistByOETActions",
+      "Description": "Update OET Checklist when OET Score matched or unmatched",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "QAReworkFlag",
+      "Description": "Set QA Rework Flag and Timestamp. Case List filters is dependent on this flag as well as LastAccessView",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "GPHealthCheck",
+      "Description": "GP Health Check Flag",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "LastAccessedView",
+      "Description": "Store the last Case/OET accessed view by the user. Case List filters is dependent on this flag as well as QAReworkFlag",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "PDFViewerEnhancement",
+      "Description": "Show old or new PDFViewer. True is new",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "PaypalPathwaysComment",
+      "Description": "Add Pathways to comment2 for paypal. True is new",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "LimboCase",
+      "Description": "Check for the limbo state, where an applicant does not have open registration and score is not yet posted",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "ShowCaseCount",
+      "Description": "Flag to show total amount of cases on the case list screen",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "10-03-2020"
+    },
+    {
+      "Name": "DeleteBlobsJob",
+      "Description": "Flag to delete blobs using daily job when cases are deleted",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "OETActionChecks",
+      "Description": "Disable or Enable Match buttons",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "LanguageChangesOctober",
+      "Description": "Language changes for October 2020 release",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "PaypalRefundComment",
+      "Description": "Add comment in Paypal for refunds",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "11-20-2020"
+    },
+    {
+      "Name": "GPSyncProcessing",
+      "Description": "Flag to enable GP Synchronous Processing",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "PNREFCheck",
+      "Description": "Flag to check PNREF while adding Payment record",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "FeatureFlagSASToken",
+      "Description": "Flag to generate SAS token to update FeatureFlag.json",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "DeleteDocumentMutation",
+      "Description": "Flag to delete blob file via Mutation call",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "SubmissionSummary",
+      "Description": "Flag to check PNREF while adding Payment record",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "ClearPrevMatchUponOETRematch",
+      "Description": "Flag to clear previous match upon OET ReMatch",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "SearchCaseByOETRefId",
+      "Description": "Flag to allow case search by OET Ref Id",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    }
+  ]
+}
