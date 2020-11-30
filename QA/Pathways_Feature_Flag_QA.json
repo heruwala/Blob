@@ -64,13 +64,6 @@
       "RetirementDate": "12-05-2020"
     },
     {
-      "Name": "LimboCase",
-      "Description": "Check for the limbo state, where an applicant does not have open registration and score is not yet posted",
-      "Value": "true",
-      "AllowedValues": ["true", "false"],
-      "RetirementDate": "12-05-2020"
-    },
-    {
       "Name": "ShowCaseCount",
       "Description": "Flag to show total amount of cases on the case list screen",
       "Value": "true",
