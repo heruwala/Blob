@@ -115,14 +115,14 @@
     {
       "Name": "FeatureFlagSASToken",
       "Description": "Flag to generate SAS token to update FeatureFlag.json",
-      "Value": "true",
+      "Value": "false",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
     },
     {
       "Name": "DeleteDocumentMutation",
       "Description": "Flag to delete blob file via Mutation call",
-      "Value": "true",
+      "Value": "false",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
     },
