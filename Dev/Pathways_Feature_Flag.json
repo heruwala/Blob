@@ -2,7 +2,7 @@
   "FeatureFlags": [
     {
       "Name": "OETSearchUSMLEID",
-      "Description": "Search OET by USMLE ID",
+      "Description": "Search OET by USMLE ID Test",
       "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "12-05-2020"
