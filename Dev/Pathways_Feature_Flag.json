@@ -3,7 +3,7 @@
     {
       "Name": "OETSearchUSMLEID",
       "Description": "Search OET by USMLE ID",
-      "Value": "false",
+      "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "12-05-2020"
     },
@@ -52,28 +52,28 @@
     {
       "Name": "PDFViewerEnhancement",
       "Description": "Show old or new PDFViewer. True is new",
-      "Value": "false",
+      "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "12-05-2020"
     },
     {
       "Name": "PaypalPathwaysComment",
       "Description": "Add Pathways to comment2 for paypal. True is new",
-      "Value": "false",
+      "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "12-05-2020"
     },
     {
       "Name": "ShowCaseCount",
       "Description": "Flag to show total amount of cases on the case list screen",
-      "Value": "false",
+      "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "10-03-2020"
     },
     {
       "Name": "DeleteBlobsJob",
       "Description": "Flag to delete blobs using daily job when cases are deleted",
-      "Value": "false",
+      "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "12-05-2020"
     },
@@ -101,7 +101,7 @@
     {
       "Name": "GPSyncProcessing",
       "Description": "Flag to enable GP Synchronous Processing",
-      "Value": "true",
+      "Value": "false",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
     },
@@ -115,14 +115,14 @@
     {
       "Name": "FeatureFlagSASToken",
       "Description": "Flag to generate SAS token to update FeatureFlag.json",
-      "Value": "true",
+      "Value": "false",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
     },
     {
       "Name": "DeleteDocumentMutation",
       "Description": "Flag to delete blob file via Mutation call",
-      "Value": "true",
+      "Value": "false",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
     },
@@ -153,6 +153,48 @@
       "Value": "true",
       "AllowedValues": ["true", "false"],
       "RetirementDate": "02-05-2021"
-    }
+    },
+    {
+      "Name": "LicenseDateTimeConversionFix",
+      "Description": "Flag to fix date time issue on dates",
+      "Value": "false",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "BillingPreCheck",
+      "Description": "Flag to validate data before allowing payment",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "UseFacetObj",
+      "Description": "Flag to validate data before allowing payment",
+      "Value": "false",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "RemoveGetCaseFromSearchOETScores",
+      "Description": "Flag to remove get case from search OET Scores",
+      "Value": "true",
+      "AllowedValues": [ "true", "false" ],
+      "RetirementDate": "02-05-2021"
+    },
+		{ 
+			"Name": "PreventConvertToExceptionCase", 
+			"Description": "Flag to prevent converting a Standard case to Exception Case", 
+			"Value": "false", 
+			"AllowedValues": ["true", "false"], 
+			"RetirementDate": "02-05-2021" 
+		}, 
+    { 
+      "Name": "PreventAddExceptionCase", 
+      "Description": "Flag to prevent creation of new Exception Case", 
+      "Value": "false", 
+      "AllowedValues": ["true", "false"], 
+      "RetirementDate": "02-05-2021" 
+    } 
   ]
 }
