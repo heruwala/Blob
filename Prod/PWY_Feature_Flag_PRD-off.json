@@ -1,0 +1,249 @@
+{
+  "FeatureFlags": [
+    {
+      "Name": "LastAccessedView",
+      "Description": "Store the last Case/OET accessed view by the user. Case List filters is dependent on this flag as well as QAReworkFlag",
+      "Value": "true",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "PDFViewerEnhancement",
+      "Description": "Show old or new PDFViewer. True is new",
+      "Value": "true",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2020"
+    },
+    {
+      "Name": "LicenseDateTimeConversionFix",
+      "Description": "Flag to fix date time issue on dates",
+      "Value": "true",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "SubmissionSummary",
+      "Description": "Flag to check PNREF while adding Payment record",
+      "Value": "true",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "PreventConvertToExceptionCase",
+      "Description": "Flag to prevent converting a Standard case to Exception Case",
+      "Value": "false",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "PreventAddExceptionCase",
+      "Description": "Flag to prevent creation of new Exception Case",
+      "Value": "false",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "ApplicantLoginPollingInterval",
+      "Description": "Flag to set polling interval on applicant login",
+      "Value": "60000",
+      "AllowedValues": ["number"],
+      "RetirementDate": "02-05-2021"
+    },
+    {
+      "Name": "ENABLE_APOLLO_BATCH_AUTHORITY",
+      "Description": "true to batchhttplink, false for httplink",
+      "Value": "true",
+      "AllowedValues": ["boolean"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_MAX_AUTHORITY",
+      "Description": "Max batch size allowed for apollo calls for Verify Clinical Skills Portal",
+      "Value": "1",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_INTERVAL_AUTHORITY",
+      "Description": "Interval for batched apollo requests for Verify Clinical Skills Portal",
+      "Value": "0",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+		{
+			"Name": "REVALIDATION_ENABLED",
+			"Description": "Flag to enable Revalidation feature",
+			"Value": "false",
+			"AllowedValues": ["true", "false"],
+			"RetirementDate": "12-05-2022"
+		},
+    {
+      "Name": "MAINTENANCE_MSG_SYSTEM_AUTHORITY",
+      "Description": "Message to be displayed during the maintenance on Authority Portal",
+      "Value": "<div><b>Pathways for ECFMG Certification Clinical Skills Evaluation and Attestation Portal Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Pathways for ECFMG Certification Clinical Skills Evaluation and Attestation Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p></div>",
+      "AllowedValues": ["system message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_AUTHORITY",
+      "Description": "Message to be displayed when the maintenance is impending on Authority Portal",
+      "Value": "Pathways for ECFMG Certification Clinical Skills Evaluation and Attestation Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Pathways for ECFMG Certification Clinical Skills Evaluation and Attestation Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.",
+      "AllowedValues": ["impending message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_TIMESTAMP_AUTHORITY",
+      "Description": "DateTime in UTC when the impending message should begin to be displayed on Authority Portal",
+      "Value": "2025-11-01T00:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_START_TIMESTAMP_AUTHORITY",
+      "Description": "DateTime in UTC when the maintenance is going to begin on Authority Portal",
+      "Value": "2025-11-07T22:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_END_TIMESTAMP_AUTHORITY",
+      "Description": "DateTime in UTC when the maintenance is going to end on Authority Portal",
+      "Value": "2025-11-08T23:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_UPCOMING_AUTHORITY",
+      "Description": "Maintenance is scheduled and message is set",
+      "Value": "false",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "ENABLE_APOLLO_BATCH_CASEMANAGEMENT",
+      "Description": "true to batchhttplink, false for httplink",
+      "Value": "true",
+      "AllowedValues": ["boolean"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_MAX_CASEMANAGEMENT",
+      "Description": "Max batch size allowed for apollo calls for Case Management Portal",
+      "Value": "1",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_INTERVAL_CASEMANAGEMENT",
+      "Description": "Interval for batched apollo requests for Case Management Portal",
+      "Value": "0",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_SYSTEM_CASEMANAGEMENT",
+      "Description": "Message to be displayed during the maintenance on Case Management Portal",
+      "Value": "<div><b>Pathways for ECFMG Certification Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Pathways for ECFMG Certification is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p></div>",
+      "AllowedValues": ["system message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_CASEMANAGEMENT",
+      "Description": "Message to be displayed when the maintenance is impending on Case Management Portal",
+      "Value": "Pathways for ECFMG Certification Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Pathways for ECFMG Certification is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.",
+      "AllowedValues": ["impending message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_TIMESTAMP_CASEMANAGEMENT",
+      "Description": "DateTime in UTC when the impending message should begin to be displayed on Case Management Portal",
+      "Value": "2025-11-01T00:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_START_TIMESTAMP_CASEMANAGEMENT",
+      "Description": "DateTime in UTC when the maintenance is going to begin on Case Management Portal",
+      "Value": "2025-11-07T22:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_END_TIMESTAMP_CASEMANAGEMENT",
+      "Description": "DateTime in UTC when the maintenance is going to end on Case Management Portal",
+      "Value": "2025-11-08T23:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_UPCOMING_CASEMANAGEMENT",
+      "Description": "Flag to indicate if a maintenance activity is coming up on Case Management Portal",
+      "Value": "false",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "ENABLE_APOLLO_BATCH_APPLICANT",
+      "Description": "true to batchhttplink, false for httplink",
+      "Value": "true",
+      "AllowedValues": ["boolean"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_MAX_APPLICANT",
+      "Description": "Max batch size allowed for apollo calls for Applicant Portal",
+      "Value": "1",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "APOLLO_BATCH_INTERVAL_APPLICANT",
+      "Description": "Interval for batched apollo requests for Applicant Portal",
+      "Value": "0",
+      "AllowedValues": ["integer"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_SYSTEM_APPLICANT",
+      "Description": "Message to be displayed during the maintenance on Applicant Portal",
+      "Value": "<div><b>Pathways for ECFMG Certification Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Pathways for ECFMG Certification is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p></div>",
+      "AllowedValues": ["system message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_APPLICANT",
+      "Description": "Message to be displayed when the maintenance is impending on Applicant Portal",
+      "Value": "Pathways for ECFMG Certification Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Pathways for ECFMG Certification is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.",
+      "AllowedValues": ["impending message"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_TIMESTAMP_APPLICANT",
+      "Description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
+      "Value": "2025-11-01T00:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_START_TIMESTAMP_APPLICANT",
+      "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
+      "Value": "2025-11-07T22:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_END_TIMESTAMP_APPLICANT",
+      "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
+      "Value": "2025-11-08T23:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2022"
+    },
+    {
+      "Name": "MAINTENANCE_UPCOMING_APPLICANT",
+      "Description": "Flag to indicate if a maintenance activity is coming up on Applicant Portal",
+      "Value": "false",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2022"
+    }
+  ]
+}

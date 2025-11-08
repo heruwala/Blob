@@ -1,0 +1,53 @@
+{
+  "FeatureFlags": [
+    {
+      "Name": "UI_CONFIG_VERSION",
+      "Description": "Current UI Config Version",
+      "Value": "v1",
+      "AllowedValues": ["version number"],
+      "RetirementDate": "05-08-2099"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_SYSTEM_UI_PORTAL",
+      "Description": "Message to be displayed during the maintenance on Applicant Portal",
+      "Value": "<div><b>Data Visualization Portal Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Data Visualization Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p></div>",
+      "AllowedValues": ["system message"],
+      "RetirementDate": "12-05-2099"
+    },
+    {
+      "Name": "MAINTENANCE_MSG_IMPENDING_UI_PORTAL",
+      "Description": "Message to be displayed when the maintenance is impending on Applicant Portal",
+      "Value": "Data Visualization Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Data Visualization Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.",
+      "AllowedValues": ["impending message"],
+      "RetirementDate": "12-05-2099"
+    },
+    {
+      "Name": "MAINTENANCE_IMPENDING_TIMESTAMP_UI_PORTAL",
+      "Description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
+      "Value": "2025-11-01T00:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2099"
+    },
+    {
+      "Name": "MAINTENANCE_START_TIMESTAMP_UI_PORTAL",
+      "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
+      "Value": "2025-11-07T22:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2099"
+    },
+    {
+      "Name": "MAINTENANCE_END_TIMESTAMP_UI_PORTAL",
+      "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
+      "Value": "2025-11-08T23:00:00.000Z",
+      "AllowedValues": ["timestamp"],
+      "RetirementDate": "12-05-2099"
+    },
+    {
+      "Name": "MAINTENANCE_UPCOMING_UI_PORTAL",
+      "Description": "Flag to indicate if a maintenance activity is coming up on Applicant Portal",
+      "Value": "true",
+      "AllowedValues": ["true", "false"],
+      "RetirementDate": "12-05-2099"
+    }
+  ]
+}

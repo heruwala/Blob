@@ -1,0 +1,243 @@
+{
+  "featureFlags": [
+    {
+      "allowedValues": [
+        "version number"
+      ],
+      "description": "Current UI Config Version",
+      "name": "UI_CONFIG_VERSION",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "v1"
+    },
+    {
+      "allowedValues": [
+        "system message"
+      ],
+      "description": "Message to be displayed during the maintenance on Applicant Portal",
+      "name": "MAINTENANCE_MSG_SYSTEM_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "<b>Credential Verification for Healthcare Professionals Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Credential Verification for Healthcare Professionals is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p>"
+    },
+    {
+      "allowedValues": [
+        "impending message"
+      ],
+      "description": "Message to be displayed when the maintenance is impending on Applicant Portal",
+      "name": "MAINTENANCE_MSG_IMPENDING_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "Credential Verification for Healthcare Professionals Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Credential Verification for Healthcare Professionals Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services."
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
+      "name": "MAINTENANCE_IMPENDING_TIMESTAMP_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
+      "name": "MAINTENANCE_START_TIMESTAMP_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
+      "name": "MAINTENANCE_END_TIMESTAMP_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "true",
+        "false"
+      ],
+      "description": "Flag to indicate if a maintenance activity is coming up on Applicant Portal",
+      "name": "MAINTENANCE_UPCOMING_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "false"
+    },
+    {
+      "allowedValues": [
+        "true",
+        "false"
+      ],
+      "description": "Flag to indicate if the MyIntealth Service Catalog link should appear on the home page of the Applicant Portal",
+      "name": "MYINTEALTH_SERVICE_CATALOG_LINK_VISIBLE_UI_APPLICANT_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "false"
+    },
+    {
+      "allowedValues": [
+        "system message"
+      ],
+      "description": "Message to be displayed during the maintenance on Entity Portal",
+      "name": "MAINTENANCE_MSG_SYSTEM_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "<b>Credential Verification for Healthcare Professionals Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Credential Verification for Healthcare Professionals is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p>"
+    },
+    {
+      "allowedValues": [
+        "impending message"
+      ],
+      "description": "Message to be displayed when the maintenance is impending on Entity Portal",
+      "name": "MAINTENANCE_MSG_IMPENDING_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "Credential Verification for Healthcare Professionals Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Credential Verification for Healthcare Professionals Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services."
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the impending message should begin to be displayed on Entity Portal",
+      "name": "MAINTENANCE_IMPENDING_TIMESTAMP_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to begin on Entity Portal",
+      "name": "MAINTENANCE_START_TIMESTAMP_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to end on Entity Portal",
+      "name": "MAINTENANCE_END_TIMESTAMP_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "true",
+        "false"
+      ],
+      "description": "Flag to indicate if a maintenance activity is coming up on Entity Portal",
+      "name": "MAINTENANCE_UPCOMING_UI_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "true"
+    },
+    {
+      "allowedValues": [
+        "system message"
+      ],
+      "description": "Message to be displayed during the maintenance on Staff Portal",
+      "name": "MAINTENANCE_MSG_SYSTEM_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "<b>Credential Verification for Healthcare Professionals Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Credential Verification for Healthcare Professionals is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p>"
+    },
+    {
+      "allowedValues": [
+        "impending message"
+      ],
+      "description": "Message to be displayed when the maintenance is impending on Staff Portal",
+      "name": "MAINTENANCE_MSG_IMPENDING_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "Credential Verification for Healthcare Professionals Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Credential Verification for Healthcare Professionals Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services."
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the impending message should begin to be displayed on Staff Portal",
+      "name": "MAINTENANCE_IMPENDING_TIMESTAMP_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to begin on Staff Portal",
+      "name": "MAINTENANCE_START_TIMESTAMP_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to end on Staff Portal",
+      "name": "MAINTENANCE_END_TIMESTAMP_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "true",
+        "false"
+      ],
+      "description": "Flag to indicate if a maintenance activity is coming up on Staff Portal",
+      "name": "MAINTENANCE_UPCOMING_UI_STAFF_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "false"
+    },
+    {
+      "allowedValues": [
+        "system message"
+      ],
+      "description": "Message to be displayed during the maintenance on Inviated Entity Portal",
+      "name": "MAINTENANCE_MSG_SYSTEM_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "<b>Credential Verification for Healthcare Professionals Unavailable ##timeRangeStr##.</b> <p>Due to scheduled maintenance, the Credential Verification for Healthcare Professionals is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services.</p>"
+    },
+    {
+      "allowedValues": [
+        "impending message"
+      ],
+      "description": "Message to be displayed when the maintenance is impending on Invited Entity Portal",
+      "name": "MAINTENANCE_MSG_IMPENDING_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "Credential Verification for Healthcare Professionals Portal Unavailable ##timeRangeStr##. Due to scheduled maintenance, the Credential Verification for Healthcare Professionals Portal is expected to be unavailable beginning at approximately ##startTimestampStr##. The application is expected to be restored by ##endTimestampStr##. All times are calculated using Eastern Time in the United States. Thank you for your patience and cooperation as we work to maintain high-quality on-line services."
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the impending message should begin to be displayed on Invited Entity Portal",
+      "name": "MAINTENANCE_IMPENDING_TIMESTAMP_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to begin on Invited Entity Portal",
+      "name": "MAINTENANCE_START_TIMESTAMP_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "timestamp"
+      ],
+      "description": "DateTime in UTC when the maintenance is going to end on Invited Entity Portal",
+      "name": "MAINTENANCE_END_TIMESTAMP_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "allowedValues": [
+        "true",
+        "false"
+      ],
+      "description": "Flag to indicate if a maintenance activity is coming up on Invited Entity Portal",
+      "name": "MAINTENANCE_UPCOMING_UI_INVITED_ENTITY_PORTAL",
+      "retirementDate": "2099-01-01T00:00:00.000Z",
+      "value": "true"
+    }
+  ]
+}
