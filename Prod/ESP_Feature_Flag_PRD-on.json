@@ -24,14 +24,14 @@
     {
       "Name": "MAINTENANCE_MSG_START_TIMESTAMP_SECURE_REPORTS",
       "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
-      "Value": "2025-11-07T22:00:00.000Z",
+      "Value": "2025-11-13T22:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2022"
     },
     {
       "Name": "MAINTENANCE_MSG_END_TIMESTAMP_SECURE_REPORTS",
       "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
-      "Value": "2025-11-08T23:00:00.000Z",
+      "Value": "2025-11-14T01:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2022"
     },
