@@ -52,21 +52,21 @@
     {
       "Name": "MAINTENANCE_IMPENDING_TIMESTAMP_APPLICANTPORTAL",
       "Description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
-      "Value": "2025-11-01T00:00:00.000Z",
+      "Value": "2026-01-01T00:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_START_TIMESTAMP_APPLICANTPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
-      "Value": "2025-11-07T22:00:00.000Z",
+      "Value": "2026-01-08T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_END_TIMESTAMP_APPLICANTPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
-      "Value": "2025-11-08T23:00:00.000Z",
+      "Value": "2026-01-10T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
@@ -94,21 +94,21 @@
     {
       "Name": "MAINTENANCE_IMPENDING_TIMESTAMP_MIDUSPORTAL",
       "Description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
-      "Value": "2025-11-01T00:00:00.000Z",
+      "Value": "2026-01-01T00:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_START_TIMESTAMP_MIDUSPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
-      "Value": "2025-11-07T22:00:00.000Z",
+      "Value": "2026-01-08T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_END_TIMESTAMP_MIDUSPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
-      "Value": "2025-11-08T23:00:00.000Z",
+      "Value": "2026-01-10T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
@@ -136,21 +136,21 @@
     {
       "Name": "MAINTENANCE_IMPENDING_TIMESTAMP_ADMINPORTAL",
       "Description": "DateTime in UTC when the impending message should begin to be displayed on Applicant Portal",
-      "Value": "2025-11-01T00:00:00.000Z",
+      "Value": "2026-01-01T00:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_START_TIMESTAMP_ADMINPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to begin on Applicant Portal",
-      "Value": "2025-11-07T22:00:00.000Z",
+      "Value": "2026-01-08T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
     {
       "Name": "MAINTENANCE_END_TIMESTAMP_ADMINPORTAL",
       "Description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
-      "Value": "2025-11-08T23:00:00.000Z",
+      "Value": "2026-01-10T13:00:00.000Z",
       "AllowedValues": ["timestamp"],
       "RetirementDate": "12-05-2023"
     },
