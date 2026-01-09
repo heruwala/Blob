@@ -38,7 +38,7 @@ Each portal configuration contains three critical timestamp fields:
 #### 3. END_TIMESTAMP
 - **Purpose**: When the maintenance window ends
 - **Value**: User-provided end time converted from Eastern Time to UTC
-- **Format**: ISO 8601 with milliseconds (e.g., `2026-01-09T16:30:00.000Z`)
+- **Format**: ISO 8601 with milliseconds (e.g., `2026-01-09T17:00:00.000Z`)
 
 ### Workflow for Maintenance Updates
 
@@ -176,9 +176,9 @@ Friday – November 07, 2025, starting at 5:00PM EST through Saturday - November
 - Current UTC: `2025-11-06T18:00:00.000Z` (example: updated on Nov 6 at 6 PM UTC)
 - IMPENDING: `2025-11-06T18:00:00.000Z`
 - START: `2026-01-08T13:00:00.000Z` (Nov 7, 5 PM EST + 5 hours)
-- END: `2026-01-09T16:30:00.000Z` (Nov 8, 6 PM EST + 5 hours)
+- END: `2026-01-09T17:00:00.000Z` (Nov 8, 6 PM EST + 5 hours)
 
-**Validation**: ✅ `2025-11-06T18:00:00.000Z` < `2026-01-08T13:00:00.000Z` < `2026-01-09T16:30:00.000Z`
+**Validation**: ✅ `2025-11-06T18:00:00.000Z` < `2026-01-08T13:00:00.000Z` < `2026-01-09T17:00:00.000Z`
 
 ### Files to Update
 

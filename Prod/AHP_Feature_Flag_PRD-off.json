@@ -52,7 +52,7 @@
       "description": "DateTime in UTC when the maintenance is going to end on Applicant Portal",
       "name": "MAINTENANCE_END_TIMESTAMP_UI_APPLICANT_PORTAL",
       "retirementDate": "2099-01-01T00:00:00.000Z",
-      "value": "2026-01-09T16:30:00.000Z"
+      "value": "2026-01-09T17:00:00.000Z"
     },
     {
       "allowedValues": [
@@ -117,7 +117,7 @@
       "description": "DateTime in UTC when the maintenance is going to end on Entity Portal",
       "name": "MAINTENANCE_END_TIMESTAMP_UI_ENTITY_PORTAL",
       "retirementDate": "2099-01-01T00:00:00.000Z",
-      "value": "2026-01-09T16:30:00.000Z"
+      "value": "2026-01-09T17:00:00.000Z"
     },
     {
       "allowedValues": [
@@ -172,7 +172,7 @@
       "description": "DateTime in UTC when the maintenance is going to end on Staff Portal",
       "name": "MAINTENANCE_END_TIMESTAMP_UI_STAFF_PORTAL",
       "retirementDate": "2099-01-01T00:00:00.000Z",
-      "value": "2026-01-09T16:30:00.000Z"
+      "value": "2026-01-09T17:00:00.000Z"
     },
     {
       "allowedValues": [
@@ -227,7 +227,7 @@
       "description": "DateTime in UTC when the maintenance is going to end on Invited Entity Portal",
       "name": "MAINTENANCE_END_TIMESTAMP_UI_INVITED_ENTITY_PORTAL",
       "retirementDate": "2099-01-01T00:00:00.000Z",
-      "value": "2026-01-09T16:30:00.000Z"
+      "value": "2026-01-09T17:00:00.000Z"
     },
     {
       "allowedValues": [
